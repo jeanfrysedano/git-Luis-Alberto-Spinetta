@@ -1,0 +1,732 @@
+@charset "UTF-8";
+/* Variables  */
+.br-1 {
+  border-radius: 5px; }
+
+.br-2 {
+  border-radius: 10px; }
+
+.br-3 {
+  border-radius: 15px; }
+
+.br-4 {
+  border-radius: 20px; }
+
+.br-5 {
+  border-radius: 25px; }
+
+.br-6 {
+  border-radius: 30px; }
+
+.br-7 {
+  border-radius: 35px; }
+
+.br-8 {
+  border-radius: 40px; }
+
+.br-9 {
+  border-radius: 45px; }
+
+.br-10 {
+  border-radius: 50px; }
+
+.br-11 {
+  border-radius: 55px; }
+
+.br-12 {
+  border-radius: 60px; }
+
+.br-13 {
+  border-radius: 65px; }
+
+.br-14 {
+  border-radius: 70px; }
+
+.br-15 {
+  border-radius: 75px; }
+
+.br-16 {
+  border-radius: 80px; }
+
+.br-17 {
+  border-radius: 85px; }
+
+.br-18 {
+  border-radius: 90px; }
+
+.br-19 {
+  border-radius: 95px; }
+
+.br-20 {
+  border-radius: 100px; }
+
+/* //**************************** */
+.w-1 {
+  width: 50px; }
+
+.w-2 {
+  width: 100px; }
+
+.w-3 {
+  width: 150px; }
+
+.w-4 {
+  width: 200px; }
+
+.w-5 {
+  width: 250px; }
+
+.w-6 {
+  width: 300px; }
+
+.w-7 {
+  width: 350px; }
+
+.w-8 {
+  width: 400px; }
+
+.w-9 {
+  width: 450px; }
+
+.w-10 {
+  width: 500px; }
+
+.w-11 {
+  width: 550px; }
+
+.w-12 {
+  width: 600px; }
+
+.w-13 {
+  width: 650px; }
+
+.w-14 {
+  width: 700px; }
+
+.w-15 {
+  width: 750px; }
+
+.w-16 {
+  width: 800px; }
+
+.w-17 {
+  width: 850px; }
+
+.w-18 {
+  width: 900px; }
+
+.w-19 {
+  width: 950px; }
+
+.w-20 {
+  width: 1000px; }
+
+/* ******************************* */
+.h-1 {
+  height: 50px; }
+
+.h-2 {
+  height: 100px; }
+
+.h-3 {
+  height: 150px; }
+
+.h-4 {
+  height: 200px; }
+
+.h-5 {
+  height: 250px; }
+
+.h-6 {
+  height: 300px; }
+
+.h-7 {
+  height: 350px; }
+
+.h-8 {
+  height: 400px; }
+
+.h-9 {
+  height: 450px; }
+
+.h-10 {
+  height: 500px; }
+
+.h-11 {
+  height: 550px; }
+
+.h-12 {
+  height: 600px; }
+
+.h-13 {
+  height: 650px; }
+
+.h-14 {
+  height: 700px; }
+
+.h-15 {
+  height: 750px; }
+
+.h-16 {
+  height: 800px; }
+
+.h-17 {
+  height: 850px; }
+
+.h-18 {
+  height: 900px; }
+
+.h-19 {
+  height: 950px; }
+
+.h-20 {
+  height: 1000px; }
+
+/* ******************************* */
+.font-1 {
+  font-size: 5px; }
+
+.font-2 {
+  font-size: 10px; }
+
+.font-3 {
+  font-size: 15px; }
+
+.font-4 {
+  font-size: 20px; }
+
+.font-5 {
+  font-size: 25px; }
+
+.font-6 {
+  font-size: 30px; }
+
+.font-7 {
+  font-size: 35px; }
+
+.font-8 {
+  font-size: 40px; }
+
+.font-9 {
+  font-size: 45px; }
+
+.font-10 {
+  font-size: 50px; }
+
+.font-11 {
+  font-size: 55px; }
+
+.font-12 {
+  font-size: 60px; }
+
+.font-13 {
+  font-size: 65px; }
+
+.font-14 {
+  font-size: 70px; }
+
+.font-15 {
+  font-size: 75px; }
+
+.font-16 {
+  font-size: 80px; }
+
+.font-17 {
+  font-size: 85px; }
+
+.font-18 {
+  font-size: 90px; }
+
+.font-19 {
+  font-size: 95px; }
+
+.font-20 {
+  font-size: 100px; }
+
+/* ******************************** */
+/* Estilos para los encabezados y menus (INICIO) */
+#encabezado {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezado.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+#encabezadoDisc {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+#encabezadoBand {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+#encabezadoConc {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+#encabezadoColab {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+#encabezadoHabl {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+#encabezadoHome {
+  height: 500px;
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat center fixed;
+  background-size: cover; }
+
+h1 {
+  padding-top: 150px; }
+
+h1, h2 {
+  color: rgba(196, 196, 196, 0.897); }
+
+/* Menu */
+.nav-link {
+  font-size: 20px;
+  color: #c9c9c9; }
+
+.nav-link:hover {
+  color: rgba(187, 194, 202, 0.781); }
+
+/* ESTILOS PARA INDEX */
+.imgIndex p {
+  color: rgba(255, 255, 255, 0.856); }
+
+#ArtIndexUno {
+  padding: 45px;
+  padding-left: 35px;
+  background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75)); }
+
+.card {
+  padding: 1em;
+  width: 375px;
+  transition: all 2s;
+  background-color: #0b0b0e54;
+  color: white;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 22px 22px 44px #535353, -22px -22px 44px #424242; }
+  .card img {
+    transition: all 2s;
+    border-radius: 20px; }
+  .card img:hover {
+    transform: scale(1.1); }
+
+.SectionCarru {
+  background-color: #333333; }
+
+.ArtImg {
+  width: 900px;
+  height: 500px; }
+  .ArtImg img {
+    width: 900px;
+    height: 500px;
+    border-radius: 30px; }
+
+#ArtIndexDos {
+  background-color: gray; }
+  #ArtIndexDos h2 {
+    color: black;
+    padding-top: 20px; }
+
+video {
+  height: 400px; }
+
+.videoIndex {
+  padding: 3em;
+  display: inline-block;
+  vertical-align: top; }
+  .videoIndex p {
+    width: 300px;
+    font-size: 25px;
+    color: black; }
+
+/* Estilos para discografia */
+#sectionDisc {
+  padding: 100px 100px;
+  background-image: radial-gradient(#7c8888, #223534); }
+  #sectionDisc h2 {
+    color: black;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold; }
+  #sectionDisc img:hover {
+    transform: scale(1.15); }
+
+.titilosDisc {
+  color: #000000c9; }
+
+.articDisc p {
+  width: 300px;
+  font-size: 20px;
+  color: #000000; }
+
+.articDisc div img {
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  transition: all 2s;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 22px 22px 44px #535353, -22px -22px 44px #000000; }
+
+.articDisc {
+  display: grid;
+  grid-template-areas: "encabezado encabezado" "titUno titUno " "uno tUNO" "titDos titDos" "tDOS dos" "titTres titTres" "tres tTRES" "titCuatro titCuatro" "tCUATRO cuatro" "titCinco titCinco" "cinco tCINCO" "titSeis titSeis" "tSEIS seis"; }
+
+.encabezadoDisc {
+  grid-area: encabezado; }
+
+.tituloUno {
+  grid-area: titUno; }
+
+.DiscUno {
+  grid-area: uno; }
+
+.tUno {
+  grid-area: tUNO; }
+
+.tituloDos {
+  grid-area: titDos; }
+
+.DiscDos {
+  grid-area: dos;
+  justify-self: end; }
+
+.tDos {
+  grid-area: tDOS; }
+
+.tituloTres {
+  grid-area: titTres; }
+
+.DiscTres {
+  grid-area: tres; }
+
+.tTres {
+  grid-area: tTRES; }
+
+.tituloCuatro {
+  grid-area: titCuatro; }
+
+.DiscCuatro {
+  grid-area: cuatro;
+  justify-self: end; }
+
+.tCuatro {
+  grid-area: tCUATRO; }
+
+.tituloCinco {
+  grid-area: titCinco; }
+
+.DiscCinco {
+  grid-area: cinco; }
+
+.tCinco {
+  grid-area: tCINCO; }
+
+.tituloSeis {
+  grid-area: titSeis; }
+
+.DiscSeis {
+  grid-area: seis;
+  justify-self: end; }
+
+.tSeis {
+  grid-area: tSEIS; }
+
+/* Estilos para bandas */
+.SectionBand {
+  padding: 10px;
+  background-color: #918b83; }
+  .SectionBand h2 {
+    color: black;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold; }
+  .SectionBand ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 300ms; }
+  .SectionBand ul li a:hover {
+    color: #27185e;
+    font-size: 21px; }
+  .SectionBand img {
+    margin-left: 5px;
+    width: 430px; }
+
+.BandDiv {
+  display: inline-block;
+  vertical-align: top;
+  margin: 100px; }
+  .BandDiv nav ul li {
+    list-style: decimal; }
+  .BandDiv h2 {
+    text-align: left; }
+
+/* Estilos para conciertos */
+.secConc {
+  background: #258f90;
+  background: radial-gradient(circle, #274f50 0%, rgba(21, 22, 32, 0.637) 99%); }
+  .secConc .secConc__h2 {
+    color: black;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold; }
+
+.artConc {
+  display: flex; }
+  .artConc .artConc__text {
+    width: 1000px;
+    padding-right: 30px;
+    margin: 50px;
+    height: 100%;
+    border-radius: 3px;
+    font-size: 20px; }
+
+.artConc .artConc__img {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly; }
+  .artConc .artConc__img .artConc__img--tamaño {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: all 2s; }
+  .artConc .artConc__img .artConc__img--tamaño:hover {
+    transform: scale(1.15); }
+
+/* clases para colaboraciones */
+.artColab {
+  background-color: rgba(0, 0, 0, 0.74); }
+
+.fito {
+  text-align: center;
+  padding-top: 30px; }
+
+.charly {
+  text-align: center;
+  padding-top: 30px; }
+
+.pappo {
+  text-align: center;
+  padding-top: 30px; }
+
+.sosa {
+  text-align: center;
+  padding-top: 30px; }
+
+.fito__h2 {
+  font-size: 60px;
+  color: black; }
+
+.charly__h2 {
+  font-size: 60px;
+  color: black; }
+
+.pappo__h2 {
+  font-size: 60px;
+  color: black; }
+
+.sosa__h2 {
+  font-size: 60px;
+  color: black; }
+
+.fito__img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.charly__img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.pappo__img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.sosa__img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.fito__img--alb {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 28%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.charly__img--alb {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 28%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.pappo__img--alb {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 28%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.sosa__img--alb {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 28%;
+  margin-top: 30px;
+  border-radius: 20px;
+  background: #272727;
+  box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+
+.fito__text {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 800px;
+  color: black;
+  font-size: 30px; }
+
+.charly__text {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 800px;
+  color: black;
+  font-size: 30px; }
+
+.pappo__text {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 800px;
+  color: black;
+  font-size: 30px; }
+
+.sosa__text {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 800px;
+  color: black;
+  font-size: 30px; }
+
+/* estilos para homenajes */
+.homenajes {
+  text-align: center;
+  background-color: #504f4f;
+  padding-top: 50px; }
+
+.homenajes__img {
+  width: 400px;
+  height: 300px;
+  margin: 6px; }
+
+.homenajes__img--video {
+  width: 900px;
+  height: 600px;
+  padding-bottom: 50px; }
+
+.homenajes__texto {
+  margin-left: 25%;
+  font-size: 25px;
+  color: black;
+  width: 700px; }
+
+/* ***************** */
+.nat {
+  text-align: center;
+  background-color: rgba(39, 39, 39, 0.705);
+  padding-top: 50px; }
+
+.nat__img {
+  width: 400px;
+  height: 300px;
+  margin: 6px; }
+
+.nat__img--video {
+  width: 900px;
+  height: 600px;
+  padding-bottom: 50px; }
+
+.nat__texto {
+  margin-left: 25%;
+  font-size: 25px;
+  color: black;
+  width: 700px; }
+
+/* Estilos para el formulario */
+.sectionForm {
+  background-color: rgba(15, 26, 46, 0.767);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: cornsilk; }
+
+.form-floating {
+  color: black; }
+
+/* estilos para footer */
+footer, .info {
+  background-color: #000;
+  margin-bottom: 0; }
+
+.footer {
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.493); }
+
+.info {
+  list-style: none;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px; }

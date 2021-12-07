@@ -1,0 +1,64 @@
+/* clases para colaboraciones */
+
+.artColab {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+
+@each $principal in fito, charly, pappo, sosa {
+    .#{$principal} {
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+@each $h2 in fito__h2, charly__h2, pappo__h2, sosa__h2 {
+    .#{$h2} {
+        font-size: 60px;
+        @include colores (negro);
+
+    }
+}
+
+@each $imagenes in fito__img, charly__img, pappo__img, sosa__img {
+    .#{$imagenes} {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background: #272727;
+        box-shadow:  15px 15px 37px #535353,
+                 -15px -15px 37px #000000;
+    }
+}
+
+@each $album in fito__img--alb, charly__img--alb, pappo__img--alb, sosa__img--alb {
+    .#{$album} {
+        width: 600px;
+        height: 500px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-left: 28%;
+        margin-top: 30px;
+        border-radius: 20px;
+        background: #272727;
+        box-shadow:  15px 15px 37px #535353,
+                 -15px -15px 37px #000000;
+
+    }
+}
+
+@each $text in fito__text, charly__text, pappo__text, sosa__text {
+    .#{$text} {
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+        margin-top: 30px;
+        width: 800px;
+        @include colores (negro);
+        font-size: 30px;
+    }
+}
+

@@ -1,0 +1,54 @@
+/* estilos para homenajes */
+.homenajes {
+    text-align: center;
+    background-color: rgb(80, 79, 79);
+    padding-top: 50px;
+}
+
+.homenajes__img {
+    width: 400px;
+    height: 300px;
+    margin: 6px;
+}
+
+.homenajes__img--video {
+    width: 900px;
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+.homenajes__texto {
+    margin-left: 25%;
+    font-size: 25px;
+    @include colores (negro);
+    width: 700px;
+}
+
+
+/* ***************** */
+
+
+.nat {
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.705);
+    padding-top: 50px;
+}
+
+.nat__img {
+    width: 400px;
+    height: 300px;
+    margin: 6px;
+}
+
+.nat__img--video {
+    width: 900px;
+    height: 600px;
+    padding-bottom: 50px;
+}
+
+.nat__texto {
+    margin-left: 25%;
+    font-size: 25px;
+    @include colores (negro);
+    width: 700px;
+}

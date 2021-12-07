@@ -1,0 +1,76 @@
+/* ESTILOS PARA INDEX */
+
+
+
+.imgIndex p {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+#ArtIndexUno {
+    padding: 45px;
+    padding-left: 35px;
+    background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75));
+    }
+
+.card {
+    padding: 1em;
+    width: 375px;
+    transition: all 2s;
+    background-color: #0b0b0e54;
+    @include colores (blanco);
+    border-radius: 20px;
+    background: #272727;
+    box-shadow:  22px 22px 44px #535353,
+             -22px -22px 44px #424242;
+    img {
+        transition: all 2s;
+        border-radius: 20px;
+        
+    }
+    img:hover {
+        transform: scale(1.10);
+    }
+}
+
+.SectionCarru {
+    background-color: #333333;
+}
+
+
+.ArtImg {
+    width: 900px;
+    height: 500px;
+    img {
+        width: 900px;
+        height: 500px;
+        border-radius: 30px;
+    }
+
+}
+
+#ArtIndexDos {
+    @include bg-colores (gris);
+    h2 {
+        @include colores (negro);
+        padding-top: 20px;
+    
+    }
+
+}
+
+video {
+    height: 400px;
+
+}
+
+.videoIndex {
+    padding: 3em;
+    display: inline-block;
+    vertical-align: top;
+    p {
+        width: 300px;
+        font-size: 25px;
+        color: black;
+    
+    }
+}

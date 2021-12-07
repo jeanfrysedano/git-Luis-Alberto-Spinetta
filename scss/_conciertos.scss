@@ -1,0 +1,47 @@
+/* Estilos para conciertos */
+.secConc {
+    background: rgb(37,143,144);
+    background: radial-gradient(circle, rgb(39, 79, 80) 0%, rgba(21, 22, 32, 0.637) 99%);
+    .secConc__h2 {
+        @include colores (negro);
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;   
+    }
+}
+
+.artConc {
+    display: flex;
+    .artConc__text {
+        width: 1000px;
+        padding-right: 30px;
+        margin: 50px;
+        height: 100%;
+        border-radius: 3px;
+        font-size: 20px;
+    }
+    
+    
+}
+
+.artConc {
+    .artConc__img{
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        .artConc__img--tamaño {
+            width: 300px;
+            height: 300px;
+            border-radius: 5px;
+            margin: 5px;
+            transition: all 2s;
+        }
+        .artConc__img--tamaño:hover {
+            transform:scale(1.15);
+        }
+        
+    } 
+}

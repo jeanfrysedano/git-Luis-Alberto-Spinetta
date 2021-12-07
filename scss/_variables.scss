@@ -1,0 +1,62 @@
+/* Variables  */
+
+//tamaños
+$diez: 10px;
+$cien: 100px;
+
+//tamaños
+//**********************
+
+@for $border from 1 through 20 {
+    .br-#{$border} {
+        border-radius: ($diez/2) * $border;
+    }
+
+}
+/* //**************************** */
+
+@for $ancho from 1 through 20 {
+    .w-#{$ancho} {
+        width: ($cien/2) * $ancho;
+    }
+}
+
+/* ******************************* */
+
+@for $alto from 1 through 20 {
+    .h-#{$alto} {
+        height: ($cien/2) * $alto;
+    } 
+}
+
+/* ******************************* */
+
+@for $font from 1 through 20 {
+    .font-#{$font} {
+        font-size: ($diez/2) * $font;
+    }
+
+}
+/* ******************************** */
+
+@mixin colores ($color) {
+
+    @if $color == negro {
+        color: black;
+    } @else if $color == gris {
+        color: gray;
+    } @else if $color == blanco {
+        color: white;
+    }
+}
+
+@mixin bg-colores ($color) {
+
+    @if $color == negro {
+        background-color: black;
+    } @else if $color == gris {
+        background-color: gray;
+    } @else if $color == blanco {
+        background-color: white;
+    }
+}

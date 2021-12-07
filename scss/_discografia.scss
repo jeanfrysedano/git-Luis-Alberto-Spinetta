@@ -1,0 +1,169 @@
+/* Estilos para discografia */
+
+#sectionDisc {
+    padding: 100px 100px;
+    background-image: radial-gradient(#7c8888, rgb(34, 53, 52));
+    h2 {
+        @include colores (negro);
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;   
+    }
+    img:hover {
+        transform:scale(1.15);
+    }
+    
+}
+.titilosDisc {
+    color: #000000c9;
+}
+
+.articDisc {
+    p {
+        width: 300px;
+        font-size: 20px;
+        color: #000000;
+
+
+    }
+
+    div img {
+        border-radius: 20px;
+        width: 400px;
+        height: 400px;
+        transition: all 2s;
+        border-radius: 20px;
+        background: #272727;
+        box-shadow:  22px 22px 44px #535353,
+                 -22px -22px 44px #000000;
+    }
+
+}
+
+
+.articDisc {
+    display: grid;
+    grid-template-areas:
+    "encabezado encabezado"
+    "titUno titUno "
+    "uno tUNO"
+    "titDos titDos"
+    "tDOS dos"
+    "titTres titTres"
+    "tres tTRES"
+    "titCuatro titCuatro"
+    "tCUATRO cuatro"
+    "titCinco titCinco"
+    "cinco tCINCO"
+    "titSeis titSeis"
+    "tSEIS seis"
+
+
+}
+
+.encabezadoDisc {
+    grid-area: encabezado;
+}
+
+.tituloUno {
+    grid-area: titUno;
+}
+
+.DiscUno {
+    grid-area: uno;
+}
+
+.tUno {
+    grid-area: tUNO;
+
+}
+
+
+.tituloDos {
+    grid-area: titDos;
+}
+
+.DiscDos {
+    grid-area: dos;
+
+    justify-self: end;
+
+}
+
+.tDos {
+    grid-area: tDOS;
+
+
+}
+
+.tituloTres {
+    grid-area: titTres;
+
+}
+
+.DiscTres {
+    grid-area: tres;
+
+
+}
+
+.tTres {
+    grid-area: tTRES;
+ 
+
+}
+
+.tituloCuatro {
+    grid-area: titCuatro;
+
+}
+
+.DiscCuatro {
+    grid-area: cuatro;
+
+    justify-self: end;
+
+}
+
+.tCuatro {
+    grid-area: tCUATRO;
+
+
+}
+
+.tituloCinco {
+    grid-area: titCinco;
+
+}
+
+.DiscCinco {
+    grid-area: cinco;
+
+
+
+}
+
+.tCinco {
+    grid-area: tCINCO;
+
+
+}
+
+.tituloSeis {
+    grid-area: titSeis;
+
+}
+
+.DiscSeis {
+    grid-area: seis;
+
+    justify-self: end;
+
+
+}
+
+.tSeis {
+    grid-area: tSEIS;
+
+
+}
