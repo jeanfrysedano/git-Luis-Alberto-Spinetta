@@ -409,7 +409,8 @@ video {
   grid-area: tres; }
 
 .tTres {
-  grid-area: tTRES; }
+  grid-area: tTRES;
+  justify-self: end; }
 
 .tituloCuatro {
   grid-area: titCuatro; }
@@ -428,7 +429,8 @@ video {
   grid-area: cinco; }
 
 .tCinco {
-  grid-area: tCINCO; }
+  grid-area: tCINCO;
+  justify-self: end; }
 
 .tituloSeis {
   grid-area: titSeis; }
@@ -443,7 +445,8 @@ video {
 /* Estilos para bandas */
 .SectionBand {
   padding: 10px;
-  background-color: #918b83; }
+  background-color: #918b83;
+  padding-left: 220px; }
   .SectionBand h2 {
     color: black;
     line-height: 3;
@@ -457,18 +460,21 @@ video {
   .SectionBand ul li a:hover {
     color: #27185e;
     font-size: 21px; }
-  .SectionBand img {
-    margin-left: 5px;
-    width: 430px; }
 
 .BandDiv {
   display: inline-block;
   vertical-align: top;
-  margin: 100px; }
+  margin: 30px;
+  padding-top: 30px; }
   .BandDiv nav ul li {
     list-style: decimal; }
   .BandDiv h2 {
     text-align: left; }
+
+.artUno {
+  width: 800px;
+  height: 500px;
+  padding-left: 100px; }
 
 /* Estilos para conciertos */
 .secConc {

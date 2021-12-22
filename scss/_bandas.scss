@@ -2,6 +2,8 @@
 .SectionBand {
     padding: 10px;
     background-color: rgb(145, 139, 131);
+    padding-left: 220px;
+    
     h2 {
         @include colores (negro);
         line-height: 3;
@@ -23,16 +25,13 @@
             }   
         }   
     }
-    img {
-        margin-left:5px ;
-        width:430px;
-    }
 }
 
 .BandDiv {
     display: inline-block;
     vertical-align: top;
-    margin: 100px;
+    margin: 30px;
+    padding-top: 30px;
     nav {
         ul {
             li {
@@ -46,6 +45,9 @@
     
 }
 
-
-
+.artUno {
+    width: 800px;
+    height: 500px;
+    padding-left: 100px;
+}
 
