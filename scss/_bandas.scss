@@ -2,7 +2,7 @@
 .SectionBand {
     padding: 10px;
     background-color: rgb(145, 139, 131);
-    padding-left: 220px;
+    
     
     h2 {
         @include colores (negro);
@@ -12,16 +12,15 @@
     }
     ul {
         li {
+            margin-top: 3px;
             a {
                 text-decoration: none;
-                @include colores (negro);
+                @include colores (gris);
                 font-weight: bold; 
-                transition: 300ms;
                 
             }
             a:hover {
-                color: #27185e;
-                font-size: 21px;
+                @include colores (negro);
             }   
         }   
     }
@@ -32,10 +31,16 @@
     vertical-align: top;
     margin: 30px;
     padding-top: 30px;
+    padding-left: 125px;
     nav {
         ul {
             li {
-                list-style: decimal;
+                list-style: none;
+                button {
+                    
+                        text-align: left;
+                    
+                }
             }
         }
     }
@@ -46,8 +51,8 @@
 }
 
 .artUno {
-    width: 800px;
+    width: 900px;
     height: 500px;
-    padding-left: 100px;
+    padding-left: 400px;
 }
 

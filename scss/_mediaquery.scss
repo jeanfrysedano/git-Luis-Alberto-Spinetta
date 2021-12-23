@@ -62,6 +62,8 @@
     }
     
     .articDisc {
+        display: flex;
+        flex-direction: column;
         p {
             width: 390px;
             font-size: 15px;
@@ -83,150 +85,6 @@
     
     }
 
-    
-
-.articDisc {
-    display: grid;
-    grid-template-areas: 
-    "encabezado"
-    "titUno"
-    "uno"
-    "tUNO"
-    "titDos"
-    "dos"
-    "tDOS"
-    "titTres"
-    "tres"
-    "tTRES"
-    "titCuatro"
-    "cuatro"
-    "tCUATRO"
-    "titCinco"
-    "cinco"
-    "tCINCO"
-    "titSeis"
-    "seis"
-    "tSEIS"
-    ;
-
-
-
-
-}
-.encabezadoDisc {
-    grid-area: encabezado;
-}
-
-.tituloUno {
-    grid-area: titUno;
-}
-
-.DiscUno {
-    grid-area: uno;
-}
-
-.tUno {
-    grid-area: tUNO;
-
-}
-
-
-.tituloDos {
-    grid-area: titDos;
-    padding-right: 50px;
-}
-
-.DiscDos {
-    grid-area: dos;
-    padding-right: 50px;
-
-}
-
-.tDos {
-    grid-area: tDOS;
-
-
-}
-
-.tituloTres {
-    grid-area: titTres;
-    padding-right: 100px;
-
-}
-
-.DiscTres {
-    grid-area: tres;
-    padding-right: 50px;
-
-
-}
-
-.tTres {
-    grid-area: tTRES;
-    padding-right: 50px;
- 
-
-}
-
-.tituloCuatro {
-    grid-area: titCuatro;
-    padding-right: 100px;
-
-}
-
-.DiscCuatro {
-    grid-area: cuatro;
-    padding-right: 100px;
-
-}
-
-.tCuatro {
-    grid-area: tCUATRO;
-    padding-right: 50px;
-
-
-}
-
-.tituloCinco {
-    grid-area: titCinco;
-    padding-right: 50px;
-
-}
-
-.DiscCinco {
-    grid-area: cinco;
-    padding-right: 50px;
-
-
-
-}
-
-.tCinco {
-    grid-area: tCINCO;
-
-
-}
-
-.tituloSeis {
-    grid-area: titSeis;
-    padding-right: 100px;
-
-}
-
-.DiscSeis {
-    grid-area: seis;
-    padding-right: 100px;
-
-
-}
-
-.tSeis {
-    grid-area: tSEIS;
-    padding-right: 50px;
-
-
-}
-    
 /* bandas */
 
 .SectionBand {
@@ -242,35 +100,39 @@
         li {
             a {
                 text-decoration: none;
-                @include colores (negro);
-                font-weight: bold; 
+                @include colores (gris);
+                font-weight: normal; 
                 transition: 300ms;
                 
             }
             a:hover {
-                color: #27185e;
-                font-size: 20px;
+                @include colores (gris);
             }   
         }   
     }
     img {
         margin-left:0px ;
         width:430px;
+        height: 200px;
     }
 }
 
 
 .BandDiv {
-    margin: 50px;
+    margin: 0;
+    padding-left: 20px;
     p {
-        width: 350px;
+        width: 440px;
         font-size: 17px;
+        /* border: 1px black solid; */
     }
-    display: block;
+    display: flex;
+    flex-direction: column;
     nav {
         ul {
             li {
-                list-style: decimal;
+                text-align: left;
+                list-style: none;
             }
         }
     }
@@ -279,6 +141,13 @@
     }
     
 }
+
+.artUno {
+    width: 430px;
+    height: 300px;
+    padding-left: 50px;
+}
+
 
 /* conciertos */
 
@@ -295,7 +164,7 @@
 
 .artConc {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     .artConc__text {
         width: 80%;
         padding-right: 30px;

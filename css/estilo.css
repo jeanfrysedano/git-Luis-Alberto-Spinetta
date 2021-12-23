@@ -445,36 +445,38 @@ video {
 /* Estilos para bandas */
 .SectionBand {
   padding: 10px;
-  background-color: #918b83;
-  padding-left: 220px; }
+  background-color: #918b83; }
   .SectionBand h2 {
     color: black;
     line-height: 3;
     text-align: center;
     font-weight: bold; }
-  .SectionBand ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: 300ms; }
-  .SectionBand ul li a:hover {
-    color: #27185e;
-    font-size: 21px; }
+  .SectionBand ul li {
+    margin-top: 3px; }
+    .SectionBand ul li a {
+      text-decoration: none;
+      color: gray;
+      font-weight: bold; }
+    .SectionBand ul li a:hover {
+      color: black; }
 
 .BandDiv {
   display: inline-block;
   vertical-align: top;
   margin: 30px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-left: 125px; }
   .BandDiv nav ul li {
-    list-style: decimal; }
+    list-style: none; }
+    .BandDiv nav ul li button {
+      text-align: left; }
   .BandDiv h2 {
     text-align: left; }
 
 .artUno {
-  width: 800px;
+  width: 900px;
   height: 500px;
-  padding-left: 100px; }
+  padding-left: 400px; }
 
 /* Estilos para conciertos */
 .secConc {
@@ -757,7 +759,7 @@ footer, .info {
       text-align: center;
       padding-top: 10px;
       font-size: 129%;
-      transition: 300ms;
+      transition: 700ms;
       border-radius: 5px;
       box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.81) inset;
       -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.81) inset;
@@ -823,72 +825,21 @@ footer, .info {
       transform: none; }
   .titilosDisc {
     color: #000000c9; }
-  .articDisc p {
-    width: 390px;
-    font-size: 15px;
-    color: #000000;
-    margin-top: 20px; }
-  .articDisc div img {
-    border-radius: 20px;
-    width: 350px;
-    height: 350px;
-    border-radius: 20px;
-    background: #272727;
-    box-shadow: 22px 22px 44px #535353, -22px -22px 44px #000000; }
   .articDisc {
-    display: grid;
-    grid-template-areas: "encabezado" "titUno" "uno" "tUNO" "titDos" "dos" "tDOS" "titTres" "tres" "tTRES" "titCuatro" "cuatro" "tCUATRO" "titCinco" "cinco" "tCINCO" "titSeis" "seis" "tSEIS"; }
-  .encabezadoDisc {
-    grid-area: encabezado; }
-  .tituloUno {
-    grid-area: titUno; }
-  .DiscUno {
-    grid-area: uno; }
-  .tUno {
-    grid-area: tUNO; }
-  .tituloDos {
-    grid-area: titDos;
-    padding-right: 50px; }
-  .DiscDos {
-    grid-area: dos;
-    padding-right: 50px; }
-  .tDos {
-    grid-area: tDOS; }
-  .tituloTres {
-    grid-area: titTres;
-    padding-right: 100px; }
-  .DiscTres {
-    grid-area: tres;
-    padding-right: 50px; }
-  .tTres {
-    grid-area: tTRES;
-    padding-right: 50px; }
-  .tituloCuatro {
-    grid-area: titCuatro;
-    padding-right: 100px; }
-  .DiscCuatro {
-    grid-area: cuatro;
-    padding-right: 100px; }
-  .tCuatro {
-    grid-area: tCUATRO;
-    padding-right: 50px; }
-  .tituloCinco {
-    grid-area: titCinco;
-    padding-right: 50px; }
-  .DiscCinco {
-    grid-area: cinco;
-    padding-right: 50px; }
-  .tCinco {
-    grid-area: tCINCO; }
-  .tituloSeis {
-    grid-area: titSeis;
-    padding-right: 100px; }
-  .DiscSeis {
-    grid-area: seis;
-    padding-right: 100px; }
-  .tSeis {
-    grid-area: tSEIS;
-    padding-right: 50px; }
+    display: flex;
+    flex-direction: column; }
+    .articDisc p {
+      width: 390px;
+      font-size: 15px;
+      color: #000000;
+      margin-top: 20px; }
+    .articDisc div img {
+      border-radius: 20px;
+      width: 350px;
+      height: 350px;
+      border-radius: 20px;
+      background: #272727;
+      box-shadow: 22px 22px 44px #535353, -22px -22px 44px #000000; }
   /* bandas */
   .SectionBand {
     background-color: #918b83; }
@@ -899,25 +850,33 @@ footer, .info {
       font-weight: bold; }
     .SectionBand ul li a {
       text-decoration: none;
-      color: black;
-      font-weight: bold;
+      color: gray;
+      font-weight: normal;
       transition: 300ms; }
     .SectionBand ul li a:hover {
-      color: #27185e;
-      font-size: 20px; }
+      color: gray; }
     .SectionBand img {
       margin-left: 0px;
-      width: 430px; }
+      width: 430px;
+      height: 200px; }
   .BandDiv {
-    margin: 50px;
-    display: block; }
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column; }
     .BandDiv p {
-      width: 350px;
-      font-size: 17px; }
+      width: 440px;
+      font-size: 17px;
+      /* border: 1px black solid; */ }
     .BandDiv nav ul li {
-      list-style: decimal; }
+      text-align: left;
+      list-style: none; }
     .BandDiv h2 {
       text-align: center; }
+  .artUno {
+    width: 430px;
+    height: 300px;
+    padding-left: 50px; }
   /* conciertos */
   .secConc {
     background: #258f90;
@@ -929,7 +888,7 @@ footer, .info {
       font-weight: bold; }
   .artConc {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column-reverse; }
     .artConc .artConc__text {
       width: 80%;
       padding-right: 30px;
