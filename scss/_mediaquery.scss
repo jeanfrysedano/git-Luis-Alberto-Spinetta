@@ -1,6 +1,292 @@
-/*  Smartphone*/
+/* ---R-E-S-P-O-N-S-I-V-E---- */
+
+/****TABLET*****/
+@media (min-width:600px) and (max-width:1024px){
+
+    @each $lista in encabezado, encabezadoDisc, encabezadoBand, encabezadoConc, encabezadoColab, encabezadoHabl, encabezadoHome {
+        ##{$lista} {
+            height: 450px;            
+        }
+    }
+    h1 {
+        padding-top: 125px;
+    }
+    h1, h2 {
+        font-size: 25px;
+    }
+    /* Menu */
+
+    .nav-link {
+    font-size: 20px;
+    color:  rgb(201, 201, 201);
+    }
+
+    /* Estilos para discografia */
+
+#sectionDisc {
+    padding: 50px 50px;
+    h2 {
+        @include colores (negro);
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;   
+    }
+    img:hover {
+        transform:none;
+    }
+    
+}
+.titilosDisc {
+    color: #000000c9;
+}
+
+.articDisc {
+    p {
+        font-size: 100%;
+        color: #000000;
+
+
+    }
+
+    div img {
+        border-radius: 20px;
+        width: 300px;
+        height: 300px;
+        transition: all 2s;
+        border-radius: 20px;
+        background: #272727;
+        box-shadow:  22px 22px 44px #535353,
+                 -22px -22px 44px #000000;
+    }
+
+}
+
+.articDisc {
+    display: grid;
+    grid-template-areas:
+    "encabezado encabezado"
+    "titUno titUno "
+    "uno tUNO"
+    "titDos titDos"
+    "tDOS dos"
+    "titTres titTres"
+    "tres tTRES"
+    "titCuatro titCuatro"
+    "tCUATRO cuatro"
+    "titCinco titCinco"
+    "cinco tCINCO"
+    "titSeis titSeis"
+    "tSEIS seis"
+
+
+}
+
+.encabezadoDisc {
+    grid-area: encabezado;
+}
+
+.tituloUno {
+    grid-area: titUno;
+}
+
+.DiscUno {
+    grid-area: uno;
+}
+
+.tUno {
+    grid-area: tUNO;
+    
+
+}
+
+
+.tituloDos {
+    grid-area: titDos;
+}
+
+.DiscDos {
+    grid-area: dos;
+
+    justify-self: end;
+
+}
+
+.tDos {
+    grid-area: tDOS;
+
+
+}
+
+.tituloTres {
+    grid-area: titTres;
+
+}
+
+.DiscTres {
+    grid-area: tres;
+
+
+}
+
+.tTres {
+    grid-area: tTRES;
+    justify-self: end;
+    padding-left: 10%;
+
+ 
+
+}
+
+.tituloCuatro {
+    grid-area: titCuatro;
+
+}
+
+.DiscCuatro {
+    grid-area: cuatro;
+
+    justify-self: end;
+
+}
+
+.tCuatro {
+    grid-area: tCUATRO;
+
+
+}
+
+.tituloCinco {
+    grid-area: titCinco;
+
+}
+
+.DiscCinco {
+    grid-area: cinco;
+
+
+
+}
+
+.tCinco {
+    grid-area: tCINCO;
+    justify-self: end;
+    padding-left: 10%;
+
+
+}
+
+.tituloSeis {
+    grid-area: titSeis;
+
+}
+
+.DiscSeis {
+    grid-area: seis;
+
+    justify-self: end;
+
+
+}
+
+.tSeis {
+    grid-area: tSEIS;
+
+
+}
+
+/* bandas */
+
+.SectionBand {
+    padding: 2% 2%;
+    background-color: rgb(145, 139, 131);
+    
+    
+    h2 {
+        @include colores (negro);
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;   
+    }
+    ul {
+        li {
+            margin-top: 3px;
+            a {
+                text-decoration: none;
+                @include colores (gris);
+                font-weight: bold; 
+                
+            }
+            a:hover {
+                @include colores (negro);
+            }   
+        }   
+    }
+    img {
+        margin-left:0px ;
+        width:500px;
+        height: 300px;
+    }
+}
+
+.BandDiv {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-left: 15%;
+    margin: 10px;
+    p {
+       width: 280px;
+       margin: 0px;
+       font-size: 1em;
+    }
+    nav {
+        ul {
+            li {
+                list-style: none;
+                button {
+                        text-align: left; 
+                        width: 180px;
+                        
+                }
+            }
+        }
+    }
+    h2 {
+        text-align: left;
+        color: rgba(0, 0, 0, 0.418);
+        font-size: 24px;
+    }
+    
+}
+
+.artUno {
+    width: 84%;
+    height: 500px;
+    padding-left: 20%;
+    
+    h2{
+        font-size: 40px;
+
+    }
+}
+
+
+
+  }
+  
+/***SMARTPHONE****/
 
 @media (max-width:599px){
+
+    @each $lista in encabezado, encabezadoDisc, encabezadoBand, encabezadoConc, encabezadoColab, encabezadoHabl, encabezadoHome {
+        ##{$lista} {
+            height: 400px;            
+        }
+    }
+
+    h1 {
+        padding-top: 90px;
+    }
 
     h4, h5, h6, p {
         font-size: 14px;
@@ -124,7 +410,6 @@
     p {
         width: 440px;
         font-size: 17px;
-        /* border: 1px black solid; */
     }
     display: flex;
     flex-direction: column;
@@ -133,18 +418,20 @@
             li {
                 text-align: left;
                 list-style: none;
+                width: 400px;
             }
         }
     }
     h2 {
-        text-align: center;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.418);
     }
     
 }
 
 .artUno {
     width: 430px;
-    height: 300px;
+    height: 310px;
     padding-left: 50px;
 }
 
@@ -164,7 +451,7 @@
 
 .artConc {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     .artConc__text {
         width: 80%;
         padding-right: 30px;
@@ -202,6 +489,108 @@
     } 
 }
 
+/* colaboraciones */
+
+@each $principal in fito, charly, pappo, sosa {
+    .#{$principal} {
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+@each $h2 in fito__h2, charly__h2, pappo__h2, sosa__h2 {
+    .#{$h2} {
+        font-size: 50px;
+        @include colores (negro);
+
+    }
+}
+
+@each $imagenes in fito__img, charly__img, pappo__img, sosa__img {
+    .#{$imagenes} {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background: #272727;
+        box-shadow:  15px 15px 37px #535353,
+                 -15px -15px 37px #000000;
+    }
+}
+
+@each $album in fito__img--alb, charly__img--alb, pappo__img--alb, sosa__img--alb {
+    .#{$album} {
+        width: 350px;
+        height: 400px;
+        margin-left: 14%;
+    }
+}
+
+@each $text in fito__text, charly__text, pappo__text, sosa__text {
+    .#{$text} {
+        margin-left: 9%;
+        width: 400px;
+    }
+}
+
+/* homenajes */
+
+.homenajes {
+    text-align: center;
+    background-color: rgb(80, 79, 79);
+    padding-top: 50px;
+}
+
+.homenajes__img {
+    width: 200px;
+    height: 150px;
+    margin: 6px;
+}
+
+.homenajes__img--video {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.homenajes__texto {
+    margin-left: 6%;
+    font-size: 15px;
+    @include colores (negro);
+    width: 425px;
+}
+
+
+/* ***************** */
+
+
+.nat {
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.705);
+    padding-top: 50px;
+}
+
+.nat__img {
+    width: 200px;
+    height: 150px;
+    margin: 6px;
+}
+
+.nat__img--video {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.nat__texto {
+    margin-left: 6%;
+    font-size: 15px;
+    @include colores (negro);
+    width: 425px;
+}
 
 }
+
+
 
