@@ -889,50 +889,62 @@ footer, .info {
     grid-area: tSEIS; }
   /* bandas */
   .SectionBand {
-    padding: 2% 2%;
-    background-color: #918b83; }
-    .SectionBand h2 {
+    padding: 2% 2%; }
+  ul li {
+    margin-top: 3px; }
+  ul a:hover {
+    color: gray; }
+  img {
+    margin-left: 0px;
+    width: 500px;
+    height: 300px; }
+  .BandDiv {
+    padding-top: 30px;
+    padding-left: 12%;
+    margin: 10px; }
+    .BandDiv p {
+      width: 250px;
+      margin: 0px;
+      font-size: 1em; }
+    .BandDiv nav ul li button {
+      width: 180px; }
+    .BandDiv h2 {
+      font-size: 24px; }
+  /*conciertos */
+  .secConc {
+    background: #258f90;
+    background: radial-gradient(circle, #274f50 0%, rgba(21, 22, 32, 0.637) 99%); }
+    .secConc .secConc__h2 {
       color: black;
       line-height: 3;
       text-align: center;
       font-weight: bold; }
-    .SectionBand ul li {
-      margin-top: 3px; }
-      .SectionBand ul li a {
-        text-decoration: none;
-        color: gray;
-        font-weight: bold; }
-      .SectionBand ul li a:hover {
-        color: black; }
-    .SectionBand img {
-      margin-left: 0px;
-      width: 500px;
-      height: 300px; }
-  .BandDiv {
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 10px;
-    padding-left: 15%;
-    margin: 10px; }
-    .BandDiv p {
-      width: 280px;
-      margin: 0px;
-      font-size: 1em; }
-    .BandDiv nav ul li {
-      list-style: none; }
-      .BandDiv nav ul li button {
-        text-align: left;
-        width: 180px; }
-    .BandDiv h2 {
-      text-align: left;
-      color: rgba(0, 0, 0, 0.418);
-      font-size: 24px; }
-  .artUno {
-    width: 84%;
-    height: 500px;
-    padding-left: 20%; }
-    .artUno h2 {
-      font-size: 40px; } }
+  .artConc {
+    display: flex;
+    flex-direction: column; }
+    .artConc .artConc__text {
+      width: 80%;
+      padding-left: 100px;
+      margin: 50px;
+      height: 100%;
+      border-radius: 3px;
+      font-size: 15px; }
+  .mediaQ {
+    display: flex;
+    flex-direction: column-reverse; }
+  .artConc .artConc__img {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .artConc .artConc__img .artConc__img--tamaño {
+      width: 150px;
+      height: 150px;
+      border-radius: 5px;
+      margin: 5px; }
+    .artConc .artConc__img .artConc__img--tamaño:hover {
+      transform: none; } }
 
 /***SMARTPHONE****/
 @media (max-width: 599px) {

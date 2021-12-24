@@ -197,54 +197,37 @@
 /* bandas */
 
 .SectionBand {
-    padding: 2% 2%;
-    background-color: rgb(145, 139, 131);
+    padding: 2% 2%;}
     
     
-    h2 {
-        @include colores (negro);
-        line-height: 3;
-        text-align: center;
-        font-weight: bold;   
-    }
     ul {
         li {
-            margin-top: 3px;
-            a {
-                text-decoration: none;
-                @include colores (gris);
-                font-weight: bold; 
-                
+            margin-top: 3px;  
             }
             a:hover {
-                @include colores (negro);
+                @include colores (gris);
             }   
         }   
-    }
     img {
         margin-left:0px ;
         width:500px;
         height: 300px;
     }
-}
+
 
 .BandDiv {
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 10px;
-    padding-left: 15%;
+    padding-top: 30px;
+    padding-left: 12%;
     margin: 10px;
     p {
-       width: 280px;
+       width: 250px;
        margin: 0px;
        font-size: 1em;
     }
     nav {
         ul {
             li {
-                list-style: none;
                 button {
-                        text-align: left; 
                         width: 180px;
                         
                 }
@@ -252,27 +235,72 @@
         }
     }
     h2 {
-        text-align: left;
-        color: rgba(0, 0, 0, 0.418);
         font-size: 24px;
+    
+       }
     }
+
+    /*conciertos */
+    .secConc {
+    background: rgb(37,143,144);
+    background: radial-gradient(circle, rgb(39, 79, 80) 0%, rgba(21, 22, 32, 0.637) 99%);
+    .secConc__h2 {
+        @include colores (negro);
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;   
+    }
+}
+
+.artConc {
+    display: flex;
+    flex-direction: column;
+    .artConc__text {
+        width: 80%;
+        padding-left: 100px;
+        margin: 50px;
+        height: 100%;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    
     
 }
 
-.artUno {
-    width: 84%;
-    height: 500px;
-    padding-left: 20%;
-    
-    h2{
-        font-size: 40px;
+.mediaQ {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
-    }
+.artConc {
+    .artConc__img{
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .artConc__img--tamaño {
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .artConc__img--tamaño:hover {
+            transform:none;
+        }
+        
+    } 
 }
 
 
 
-  }
+
+
+
+
+}
+
+
   
 /***SMARTPHONE****/
 
