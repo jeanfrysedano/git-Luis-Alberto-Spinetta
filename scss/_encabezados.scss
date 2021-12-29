@@ -3,8 +3,9 @@
 @each $lista in encabezado, encabezadoDisc, encabezadoBand, encabezadoConc, encabezadoColab, encabezadoHabl, encabezadoHome {
     ##{$lista} {
         height: 500px;
-        background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/#{$lista}.jpg) no-repeat center fixed;
+        background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/#{$lista}.jpg) no-repeat fixed;
         background-size: cover;
+        background-position: center;
         
     }
     

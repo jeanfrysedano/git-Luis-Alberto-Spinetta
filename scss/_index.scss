@@ -7,12 +7,15 @@
 }
 
 #ArtIndexUno {
+    display: flex;
+    justify-content: space-evenly;
     padding: 45px;
     padding-left: 35px;
     background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75));
     }
 
 .card {
+    margin: 2%;
     padding: 1em;
     width: 375px;
     transition: all 2s;

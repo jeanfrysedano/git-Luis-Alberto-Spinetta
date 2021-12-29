@@ -247,38 +247,45 @@
 /* Estilos para los encabezados y menus (INICIO) */
 #encabezado {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezado.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezado.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 #encabezadoDisc {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 #encabezadoBand {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 #encabezadoConc {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 #encabezadoColab {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 #encabezadoHabl {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 #encabezadoHome {
   height: 500px;
-  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat center fixed;
-  background-size: cover; }
+  background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 h1 {
   padding-top: 150px; }
@@ -299,11 +306,14 @@ h1, h2 {
   color: rgba(255, 255, 255, 0.856); }
 
 #ArtIndexUno {
+  display: flex;
+  justify-content: space-evenly;
   padding: 45px;
   padding-left: 35px;
   background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75)); }
 
 .card {
+  margin: 2%;
   padding: 1em;
   width: 375px;
   transition: all 2s;
@@ -816,6 +826,89 @@ footer, .info {
   .nav-link {
     font-size: 20px;
     color: #c9c9c9; }
+  #encabezado {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezado.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  #encabezadoDisc {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  #encabezadoBand {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  #encabezadoConc {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  #encabezadoColab {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  #encabezadoHabl {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  #encabezadoHome {
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat fixed;
+    height: 460px;
+    background-size: 100% 460px;
+    background-position: top; }
+  /* ESTILOS PARA INDEX */
+  .imgIndex p {
+    color: rgba(255, 255, 255, 0.856); }
+  #ArtIndexUno {
+    padding: 45px;
+    padding-left: 35px;
+    background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75)); }
+  .card {
+    padding: 1em;
+    width: 30%;
+    transition: all 2s;
+    background-color: #0b0b0e54;
+    color: white;
+    border-radius: 20px;
+    background: #272727;
+    box-shadow: 22px 22px 44px #535353, -22px -22px 44px #424242; }
+    .card img {
+      transition: all 2s;
+      border-radius: 20px;
+      height: 100%; }
+    .card img:hover {
+      transform: none; }
+  .card-text {
+    display: none; }
+  .SectionCarru {
+    background-color: #333333; }
+  .ArtImg {
+    width: 900px;
+    height: 500px; }
+    .ArtImg img {
+      width: 900px;
+      height: 500px;
+      border-radius: 30px; }
+  #ArtIndexDos {
+    background-color: gray; }
+    #ArtIndexDos h2 {
+      color: black;
+      padding-top: 20px; }
+  video {
+    height: 400px; }
+  .videoIndex {
+    padding: 3em;
+    display: inline-block;
+    vertical-align: top; }
+    .videoIndex p {
+      width: 400px;
+      font-size: 25px;
+      color: black; }
   /* Estilos para discografia */
   #sectionDisc {
     padding: 50px 50px; }
@@ -948,30 +1041,68 @@ footer, .info {
 
 /***SMARTPHONE****/
 @media (max-width: 599px) {
+  /* Menu */
+  .nav-link {
+    font-size: 18px;
+    color: #c9c9c9; }
+  .nav-link:hover {
+    color: rgba(187, 194, 202, 0.781); }
+  /* encabezado */
   #encabezado {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezado.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
   #encabezadoDisc {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
   #encabezadoBand {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
   #encabezadoConc {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
   #encabezadoColab {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
   #encabezadoHabl {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
   #encabezadoHome {
-    height: 400px; }
+    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat fixed;
+    height: 350px;
+    background-size: 100% 350px;
+    background-position: top; }
+  .display-1 {
+    font-size: 240%; }
+  .display-6 {
+    font-size: 140%; }
   h1 {
-    padding-top: 90px; }
+    padding-top: 10%; }
   h4, h5, h6, p {
     font-size: 14px; }
   h1, h2 {
     font-size: 25px; }
   /* index */
+  #ArtIndexUno {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    padding-left: 10%;
+    background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75)); }
   .card {
     padding: 1em;
-    width: 375px;
+    width: 100%;
     transition: all 2s;
     background-color: #0b0b0e54;
     color: white;
@@ -983,12 +1114,26 @@ footer, .info {
       border-radius: 20px; }
     .card img:hover {
       transform: none; }
+  .SectionCarru {
+    background-color: #333333; }
+  .ArtImg {
+    width: 900px;
+    height: 300px; }
+    .ArtImg img {
+      width: 900px;
+      height: 300px;
+      border-radius: 30px; }
+  video {
+    height: 200px; }
   .videoIndex {
-    padding: 1em; }
+    padding: 0em;
+    display: flex; }
     .videoIndex p {
+      padding-left: 10%;
       text-align: center;
-      width: 450px;
-      color: black; }
+      width: 90%;
+      color: black;
+      font-size: 15px; }
   /* discografia */
   #sectionDisc {
     padding: 60px 15%;
@@ -1006,14 +1151,14 @@ footer, .info {
     display: flex;
     flex-direction: column; }
     .articDisc p {
-      width: 390px;
+      width: 105%;
       font-size: 15px;
       color: #000000;
       margin-top: 20px; }
     .articDisc div img {
       border-radius: 20px;
-      width: 350px;
-      height: 350px;
+      width: 105%;
+      height: 90%;
       border-radius: 20px;
       background: #272727;
       box-shadow: 22px 22px 44px #535353, -22px -22px 44px #000000; }
@@ -1037,24 +1182,20 @@ footer, .info {
       width: 430px;
       height: 200px; }
   .BandDiv {
-    margin: 0;
-    padding-left: 20px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0; }
     .BandDiv p {
-      width: 440px;
-      font-size: 17px; }
-    .BandDiv nav ul li {
-      text-align: left;
-      list-style: none;
-      width: 400px; }
+      width: 100%;
+      font-size: 100%; }
     .BandDiv h2 {
       text-align: left;
       color: rgba(0, 0, 0, 0.418); }
   .artUno {
-    width: 430px;
+    width: 100%;
     height: 310px;
-    padding-left: 50px; }
+    padding-left: 2%; }
   /* conciertos */
   .secConc {
     background: #258f90;
@@ -1084,8 +1225,8 @@ footer, .info {
     flex-wrap: wrap;
     justify-content: center; }
     .artConc .artConc__img .artConc__img--tamaño {
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
       border-radius: 5px;
       margin: 5px; }
     .artConc .artConc__img .artConc__img--tamaño:hover {
@@ -1148,51 +1289,55 @@ footer, .info {
     background: #272727;
     box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
   .fito__img--alb {
-    width: 350px;
-    height: 400px;
-    margin-left: 14%; }
+    width: 83%;
+    height: 350px;
+    margin-left: 9%;
+    justify-content: center; }
   .charly__img--alb {
-    width: 350px;
-    height: 400px;
-    margin-left: 14%; }
+    width: 83%;
+    height: 350px;
+    margin-left: 9%;
+    justify-content: center; }
   .pappo__img--alb {
-    width: 350px;
-    height: 400px;
-    margin-left: 14%; }
+    width: 83%;
+    height: 350px;
+    margin-left: 9%;
+    justify-content: center; }
   .sosa__img--alb {
-    width: 350px;
-    height: 400px;
-    margin-left: 14%; }
+    width: 83%;
+    height: 350px;
+    margin-left: 9%;
+    justify-content: center; }
   .fito__text {
     margin-left: 9%;
-    width: 400px; }
+    width: 85%; }
   .charly__text {
     margin-left: 9%;
-    width: 400px; }
+    width: 85%; }
   .pappo__text {
     margin-left: 9%;
-    width: 400px; }
+    width: 85%; }
   .sosa__text {
     margin-left: 9%;
-    width: 400px; }
+    width: 85%; }
   /* homenajes */
   .homenajes {
     text-align: center;
     background-color: #504f4f;
     padding-top: 50px; }
   .homenajes__img {
-    width: 200px;
+    width: 50%;
     height: 150px;
     margin: 6px; }
   .homenajes__img--video {
-    width: 400px;
+    width: 100%;
     height: 300px;
     padding-bottom: 50px; }
   .homenajes__texto {
     margin-left: 6%;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
-    width: 425px; }
+    width: 90%; }
   /* ***************** */
   .nat {
     text-align: center;
@@ -1203,11 +1348,11 @@ footer, .info {
     height: 150px;
     margin: 6px; }
   .nat__img--video {
-    width: 400px;
+    width: 100%;
     height: 300px;
     padding-bottom: 50px; }
   .nat__texto {
     margin-left: 6%;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
-    width: 425px; } }
+    width: 90%; } }
