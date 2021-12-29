@@ -982,27 +982,38 @@ footer, .info {
     grid-area: tSEIS; }
   /* bandas */
   .SectionBand {
-    padding: 2% 2%; }
-  ul li {
-    margin-top: 3px; }
-  ul a:hover {
-    color: gray; }
-  img {
-    margin-left: 0px;
-    width: 500px;
-    height: 300px; }
+    background-color: #918b83; }
+    .SectionBand h2 {
+      color: black;
+      line-height: 3;
+      text-align: center;
+      font-weight: bold; }
+    .SectionBand ul li a {
+      text-decoration: none;
+      color: gray;
+      font-weight: normal;
+      transition: 300ms; }
+    .SectionBand ul li a:hover {
+      color: gray; }
+    .SectionBand img {
+      margin-left: 0px;
+      width: 430px;
+      height: 200px; }
   .BandDiv {
-    padding-top: 30px;
-    padding-left: 12%;
-    margin: 10px; }
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0; }
     .BandDiv p {
-      width: 250px;
-      margin: 0px;
-      font-size: 1em; }
-    .BandDiv nav ul li button {
-      width: 180px; }
+      width: 100%;
+      font-size: 100%; }
     .BandDiv h2 {
-      font-size: 24px; }
+      text-align: left;
+      color: rgba(0, 0, 0, 0.418); }
+  .artUno {
+    width: 78%;
+    height: 310px;
+    padding-left: 25%; }
   /*conciertos */
   .secConc {
     background: #258f90;
@@ -1037,7 +1048,132 @@ footer, .info {
       border-radius: 5px;
       margin: 5px; }
     .artConc .artConc__img .artConc__img--tamaño:hover {
-      transform: none; } }
+      transform: none; }
+  /* colaboraciones */
+  .fito {
+    text-align: center;
+    padding-top: 30px; }
+  .charly {
+    text-align: center;
+    padding-top: 30px; }
+  .pappo {
+    text-align: center;
+    padding-top: 30px; }
+  .sosa {
+    text-align: center;
+    padding-top: 30px; }
+  .fito__h2 {
+    font-size: 50px;
+    color: black; }
+  .charly__h2 {
+    font-size: 50px;
+    color: black; }
+  .pappo__h2 {
+    font-size: 50px;
+    color: black; }
+  .sosa__h2 {
+    font-size: 50px;
+    color: black; }
+  .fito__img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #272727;
+    box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+  .charly__img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #272727;
+    box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+  .pappo__img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #272727;
+    box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+  .sosa__img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: #272727;
+    box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
+  .fito__img--alb {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    justify-content: center; }
+  .charly__img--alb {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    justify-content: center; }
+  .pappo__img--alb {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    justify-content: center; }
+  .sosa__img--alb {
+    width: 60%;
+    height: 350px;
+    margin-left: 20%;
+    justify-content: center; }
+  .fito__text {
+    margin-left: 9%;
+    width: 85%; }
+  .charly__text {
+    margin-left: 9%;
+    width: 85%; }
+  .pappo__text {
+    margin-left: 9%;
+    width: 85%; }
+  .sosa__text {
+    margin-left: 9%;
+    width: 85%; }
+  /* homenajes */
+  .homenajes {
+    text-align: center;
+    background-color: #504f4f;
+    padding-top: 50px; }
+  .homenajes__img {
+    width: 50%;
+    height: 150px;
+    margin: 6px; }
+  .homenajes__img--video {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px; }
+  .homenajes__texto {
+    margin-left: 6%;
+    font-size: 18px;
+    color: black;
+    width: 90%; }
+  /* ***************** */
+  .nat {
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.705);
+    padding-top: 50px; }
+  .nat__img {
+    width: 200px;
+    height: 150px;
+    margin: 6px; }
+  .nat__img--video {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px; }
+  .nat__texto {
+    margin-left: 6%;
+    font-size: 18px;
+    color: black;
+    width: 90%; } }
 
 /***SMARTPHONE****/
 @media (max-width: 599px) {

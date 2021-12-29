@@ -289,48 +289,60 @@ video {
 /* bandas */
 
 .SectionBand {
-    padding: 2% 2%;}
-    
-    
+    background-color: rgb(145, 139, 131);
+    h2 {
+        @include colores (negro);
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;   
+    }
+
     ul {
         li {
-            margin-top: 3px;  
+            a {
+                text-decoration: none;
+                @include colores (gris);
+                font-weight: normal; 
+                transition: 300ms;
+                
             }
             a:hover {
                 @include colores (gris);
             }   
         }   
+    }
     img {
         margin-left:0px ;
-        width:500px;
-        height: 300px;
+        width:430px;
+        height: 200px;
     }
+}
 
 
 .BandDiv {
-    padding-top: 30px;
-    padding-left: 12%;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
     p {
-       width: 250px;
-       margin: 0px;
-       font-size: 1em;
+        width: 100%;
+        font-size: 100%;
     }
-    nav {
-        ul {
-            li {
-                button {
-                        width: 180px;
-                        
-                }
-            }
-        }
-    }
+
+
     h2 {
-        font-size: 24px;
-    
-       }
+        text-align: left;
+        color: rgba(0, 0, 0, 0.418);
     }
+    
+}
+
+.artUno {
+    width: 78%;
+    height: 310px;
+    padding-left: 25%;
+}
+
 
     /*conciertos */
     .secConc {
@@ -384,6 +396,108 @@ video {
     } 
 }
 
+/* colaboraciones */
+
+@each $principal in fito, charly, pappo, sosa {
+    .#{$principal} {
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+
+@each $h2 in fito__h2, charly__h2, pappo__h2, sosa__h2 {
+    .#{$h2} {
+        font-size: 50px;
+        @include colores (negro);
+
+    }
+}
+
+@each $imagenes in fito__img, charly__img, pappo__img, sosa__img {
+    .#{$imagenes} {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+        background: #272727;
+        box-shadow:  15px 15px 37px #535353,
+                 -15px -15px 37px #000000;
+    }
+}
+
+@each $album in fito__img--alb, charly__img--alb, pappo__img--alb, sosa__img--alb {
+    .#{$album} {
+        width: 60%;
+        height: 350px;
+        margin-left: 20%;
+        justify-content: center;
+    }
+}
+
+@each $text in fito__text, charly__text, pappo__text, sosa__text {
+    .#{$text} {
+        margin-left: 9%;
+        width: 85%;
+    }
+}
+
+
+/* homenajes */
+
+.homenajes {
+    text-align: center;
+    background-color: rgb(80, 79, 79);
+    padding-top: 50px;
+}
+
+.homenajes__img {
+    width: 50%;
+    height: 150px;
+    margin: 6px;
+}
+
+.homenajes__img--video {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px;
+}
+
+.homenajes__texto {
+    margin-left: 6%;
+    font-size: 18px;
+    @include colores (negro);
+    width: 90%;
+}
+
+
+/* ***************** */
+
+
+.nat {
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.705);
+    padding-top: 50px;
+}
+
+.nat__img {
+    width: 200px;
+    height: 150px;
+    margin: 6px;
+}
+
+.nat__img--video {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px;
+}
+
+.nat__texto {
+    margin-left: 6%;
+    font-size: 18px;
+    @include colores (negro);
+    width: 90%;
+}
 
 
 
