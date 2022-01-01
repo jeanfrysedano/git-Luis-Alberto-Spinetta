@@ -514,6 +514,11 @@ video {
 
     /* Menu */
 
+
+    .menu {
+        display: none;
+    }
+
      .nav-link {
          font-size: 18px;
          color:  rgb(201, 201, 201);
@@ -523,7 +528,20 @@ video {
      .nav-link:hover {
          color: rgba(187, 194, 202, 0.781);
      }
-     
+
+     .navResponsive {
+        display: block;
+        position: relative;
+        z-index: 1000;
+        
+    }
+    .navbar {
+        background-color: rgb(255, 255, 255);
+        color: gray;
+    }
+    .navbar-brand {
+        color: rgb(211, 38, 38);
+    }
 
 
     /* encabezado */
@@ -531,7 +549,7 @@ video {
     @each $lista in encabezado, encabezadoDisc, encabezadoBand, encabezadoConc, encabezadoColab, encabezadoHabl, encabezadoHome {
         ##{$lista} {
             background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/#{$lista}.jpg) no-repeat fixed;
-            height: 350px;   
+            height: 300px;   
             background-size: 100% 350px;   
             background-position: top;      
         }
@@ -546,7 +564,7 @@ video {
     }
 
     h1 {
-        padding-top: 10%;
+        padding-top: 18%;
     }
 
     h4, h5, h6, p {
@@ -568,6 +586,7 @@ video {
         background: linear-gradient(rgba(78, 80, 85, 0.75), rgba(5, 7, 12, 0.75));
         }
     .card {
+        position: relative;
         padding: 1em;
         width: 100%;
         transition: all 2s;
@@ -575,8 +594,8 @@ video {
         @include colores (blanco);
         border-radius: 20px;
         background: #272727;
-        box-shadow:  22px 22px 44px #535353,
-                 -22px -22px 44px #424242;
+        box-shadow:  0 0px 0px #535353,
+                 0px 0px 0px #424242;
         img {
             transition: all 2s;
             border-radius: 20px;
