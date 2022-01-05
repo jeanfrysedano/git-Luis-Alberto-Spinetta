@@ -809,6 +809,11 @@ footer, .info {
 #redes li .icon-paypal {
   background-color: #549FFF; }
 
+.pie {
+  padding-bottom: 5px;
+  padding-left: 33%;
+  font-size: 15px; }
+
 /* ---R-E-S-P-O-N-S-I-V-E---- */
 /****TABLET*****/
 @media (min-width: 600px) and (max-width: 1024px) {
@@ -1182,7 +1187,12 @@ footer, .info {
     margin-left: 6%;
     font-size: 18px;
     color: black;
-    width: 90%; } }
+    width: 90%; }
+  /* footer */
+  .pie {
+    padding-bottom: 10px;
+    padding-left: 25%;
+    font-size: 15px; } }
 
 /* -------------------------------------------------------------------- */
 /***SMARTPHONE****/
@@ -1570,4 +1580,7 @@ footer, .info {
   #redes li .icon-skype {
     background-color: #1a1a1afb; }
   #redes li .icon-paypal {
-    background-color: #3d3d3d; } }
+    background-color: #3d3d3d; }
+  .pie {
+    padding-bottom: 40px;
+    padding-left: 8%; } }
