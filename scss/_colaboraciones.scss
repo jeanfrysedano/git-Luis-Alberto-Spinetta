@@ -36,12 +36,12 @@
 
 @each $album in fito__img--alb, charly__img--alb, pappo__img--alb, sosa__img--alb {
     .#{$album} {
-        width: 600px;
+        width: 40%;
         height: 500px;
         text-align: center;
         display: flex;
         justify-content: center;
-        margin-left: 28%;
+        margin-left: 30%;
         margin-top: 30px;
         border-radius: 20px;
         background: #272727;

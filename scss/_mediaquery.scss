@@ -102,13 +102,14 @@ video {
 }
 
 .videoIndex {
-    padding: 3em;
-    display: inline-block;
-    vertical-align: top;
+    padding: 0em;
+    display: flex;
     p {
-        width: 400px;
-        font-size: 25px;
+        padding-left: 10%;
+        text-align: center;
+        width: 90%;
         color: black;
+        font-size: 25px;
     
     }
 }

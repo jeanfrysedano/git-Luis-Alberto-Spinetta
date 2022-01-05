@@ -611,48 +611,48 @@ video {
   box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
 
 .fito__img--alb {
-  width: 600px;
+  width: 40%;
   height: 500px;
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-left: 28%;
+  margin-left: 30%;
   margin-top: 30px;
   border-radius: 20px;
   background: #272727;
   box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
 
 .charly__img--alb {
-  width: 600px;
+  width: 40%;
   height: 500px;
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-left: 28%;
+  margin-left: 30%;
   margin-top: 30px;
   border-radius: 20px;
   background: #272727;
   box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
 
 .pappo__img--alb {
-  width: 600px;
+  width: 40%;
   height: 500px;
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-left: 28%;
+  margin-left: 30%;
   margin-top: 30px;
   border-radius: 20px;
   background: #272727;
   box-shadow: 15px 15px 37px #535353, -15px -15px 37px #000000; }
 
 .sosa__img--alb {
-  width: 600px;
+  width: 40%;
   height: 500px;
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-left: 28%;
+  margin-left: 30%;
   margin-top: 30px;
   border-radius: 20px;
   background: #272727;
@@ -711,10 +711,10 @@ video {
   padding-bottom: 50px; }
 
 .homenajes__texto {
-  margin-left: 25%;
+  margin-left: 15%;
   font-size: 25px;
   color: black;
-  width: 700px; }
+  width: 70%; }
 
 /* ***************** */
 .nat {
@@ -733,10 +733,10 @@ video {
   padding-bottom: 50px; }
 
 .nat__texto {
-  margin-left: 25%;
+  margin-left: 15%;
   font-size: 25px;
   color: black;
-  width: 700px; }
+  width: 70%; }
 
 /* Estilos para el formulario */
 .sectionForm {
@@ -910,13 +910,14 @@ footer, .info {
   video {
     height: 400px; }
   .videoIndex {
-    padding: 3em;
-    display: inline-block;
-    vertical-align: top; }
+    padding: 0em;
+    display: flex; }
     .videoIndex p {
-      width: 400px;
-      font-size: 25px;
-      color: black; }
+      padding-left: 10%;
+      text-align: center;
+      width: 90%;
+      color: black;
+      font-size: 25px; }
   /* Estilos para discografia */
   #sectionDisc {
     padding: 50px 50px; }
