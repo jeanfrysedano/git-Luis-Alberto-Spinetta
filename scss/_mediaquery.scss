@@ -5,7 +5,8 @@
 
     @each $lista in encabezado, encabezadoDisc, encabezadoBand, encabezadoConc, encabezadoColab, encabezadoHabl, encabezadoHome {
         ##{$lista} {
-            height: 450px;            
+            height: 450px;   
+                     
         }
     }
     h1 {
@@ -566,7 +567,7 @@ video {
 
     @each $lista in encabezado, encabezadoDisc, encabezadoBand, encabezadoConc, encabezadoColab, encabezadoHabl, encabezadoHome {
         ##{$lista} {
-            background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/#{$lista}.jpg) no-repeat fixed;
+            background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/#{$lista}.jpg) no-repeat fixed;
             height: 280px;   
             background-size: 100% 350px;   
             background-position: top;      
@@ -819,7 +820,7 @@ video {
 
 /* colaboraciones */
 .artColab {
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(87, 87, 87);
 }
 
 
@@ -939,8 +940,8 @@ video {
 #redes {
     position: fixed;
     z-index: 1000;
-    top: 95%;
-    padding-left: 15% ; 
+    top: 94%;
+    padding-left: 1% ; 
 }
 
 #redes ul {
@@ -948,9 +949,9 @@ video {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
     display: flex;
     flex-direction: row;
+    padding-top: 0;
     
 
     

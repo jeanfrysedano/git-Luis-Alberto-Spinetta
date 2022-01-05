@@ -1205,37 +1205,37 @@ footer, .info {
     color: #d32626; }
   /* encabezado */
   #encabezado {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezado.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezado.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
   #encabezadoDisc {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezadoDisc.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
   #encabezadoBand {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezadoBand.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
   #encabezadoConc {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezadoConc.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
   #encabezadoColab {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezadoColab.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
   #encabezadoHabl {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezadoHabl.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
   #encabezadoHome {
-    background: linear-gradient(rgba(5, 7, 12, 0.644), rgba(5, 7, 12, 0.75)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(24, 20, 20, 0.486)), url(../imagenes/encabezados/encabezadoHome.jpg) no-repeat fixed;
     height: 280px;
     background-size: 100% 350px;
     background-position: top; }
@@ -1393,7 +1393,7 @@ footer, .info {
       transform: none; }
   /* colaboraciones */
   .artColab {
-    background-color: #353434; }
+    background-color: #575757; }
   .fito {
     text-align: center;
     padding-top: 30px; }
@@ -1530,15 +1530,16 @@ footer, .info {
   #redes {
     position: fixed;
     z-index: 1000;
-    top: 95%;
-    padding-left: 15%; }
+    top: 94%;
+    padding-left: 1%; }
   #redes ul {
     bottom: 10px;
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    padding-top: 0; }
     #redes ul li {
       display: flex; }
       #redes ul li a {
