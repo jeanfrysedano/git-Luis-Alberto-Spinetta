@@ -1028,6 +1028,8 @@ footer, .info {
     width: 78%;
     height: 310px;
     padding-left: 25%; }
+    .artUno h2 {
+      font-size: 35px; }
   /*conciertos */
   .secConc {
     background: #258f90;
