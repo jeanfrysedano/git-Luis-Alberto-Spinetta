@@ -1360,12 +1360,14 @@ footer, .info {
       width: 100%;
       font-size: 100%; }
     .BandDiv h2 {
-      text-align: left;
+      text-align: center;
       color: rgba(0, 0, 0, 0.418); }
   .artUno {
     width: 100%;
     height: 310px;
     padding-left: 2%; }
+    .artUno h2 {
+      font-size: 30px; }
   /* conciertos */
   .secConc {
     background: #258f90;
